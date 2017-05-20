@@ -1,0 +1,11 @@
+{
+  "name": "aws-cookbook-nodejs",
+  "version": "1.0.0",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0"
+  },
+  "dependencies": {
+    "co-prompt": "^1.0.0"
+  }
+}

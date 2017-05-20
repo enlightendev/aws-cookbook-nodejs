@@ -1,0 +1,52 @@
+[
+  {
+    "entity": "client",
+    "application": "e3",
+    "attributes": [
+      "fname",
+      "lname",
+      "dob"
+    ],
+    "category": "marketing"
+  },
+  {
+    "entity": "policy",
+    "application": "e2",
+    "attributes": [
+      "owner",
+      "broker",
+      "sales-force"
+    ],
+    "category": "finance"
+  },
+  {
+    "entity": "product",
+    "application": "e3",
+    "attributes": [
+      "name",
+      "type",
+      "category"
+    ],
+    "category": "marketing"
+  },
+  {
+    "entity": "product",
+    "application": "e2",
+    "attributes": [
+      "lob",
+      "product_line",
+      "phase"
+    ],
+    "category": "operations"
+  },
+  {
+    "entity": "product",
+    "application": "fmdb",
+    "attributes": [
+      "lob",
+      "product_line",
+      "phase"
+    ],
+    "category": "it"
+  }
+]

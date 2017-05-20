@@ -1,0 +1,68 @@
+[
+  {
+    "entityId": "client#1",
+    "tagk": "name",
+    "tagv": "juan",
+    "app": "e3"
+  },
+  {
+    "entityId": "client#1",
+    "tagk": "owner",
+    "tagv": "juan",
+    "app": "e3"
+  },
+  {
+    "entityId": "client#1",
+    "tagk": "q2-rev",
+    "tagv": "$2200",
+    "app": "e3"
+  },
+  {
+    "entityId": "client#1",
+    "tagk": "broker",
+    "tagv": "joe",
+    "app": "e3"
+  },
+  {
+    "entityId": "client#2",
+    "tagk": "q1-followup",
+    "tagv": "dean:active",
+    "app": "e3"
+  },
+  {
+    "entityId": "client#2",
+    "tagk": "q2-rev",
+    "tagv": "$3400",
+    "app": "e3"
+  },
+  {
+    "entityId": "client#2",
+    "tagk": "sf-url",
+    "tagv": "/client/4",
+    "app": "e3"
+  },
+  {
+    "entityId": "client#2",
+    "tagk": "broker",
+    "tagv": "joe",
+    "app": "fmdb"
+  },
+  {
+    "entityId": "policy#4",
+    "tagk": "broker",
+    "tagv": "joe",
+    "app": "fmdb"
+  },
+  {
+    "entityId": "policy#4",
+    "tagk": "broker",
+    "tagv": "juan",
+    "app": "fmdb"
+  },
+  {
+    "entityId": "policy#4",
+    "tagk": "q2-rev",
+    "tagv": "$4532",
+    "app": "fmdb"
+  }
+]

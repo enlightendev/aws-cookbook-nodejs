@@ -1,0 +1,38 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.0",
+      "eventSource": "aws:s3",
+      "awsRegion": "us-east-1",
+      "eventTime": "2016-07-06T13:26:05.410Z",
+      "eventName": "ObjectCreated:Put",
+      "userIdentity": {
+        "principalId": "AWS:AIDAJDZXGFHEJ6N3MMZ6A"
+      },
+      "requestParameters": {
+        "sourceIPAddress": "69.114.32.141"
+      },
+      "responseElements": {
+        "x-amz-request-id": "44E9E81A5D50C48E",
+        "x-amz-id-2": "INPQaGzamTJwoppTa94HZcJ3belKPlbH2vYUNrWMs+u1ONwQhPSsdR/W2kmTc3Tr"
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "8920030b-8e10-41da-a9aa-69a51597b6f8",
+        "bucket": {
+          "name": "gradfin-app-data",
+          "ownerIdentity": {
+            "principalId": "ALTY04Q1ROVIK"
+          },
+          "arn": "arn:aws:s3:::gradfin-app-data"
+        },
+        "object": {
+          "key": "gradfin.log",
+          "size": 24795,
+          "eTag": "4666f1bef84dca3e00b08b65ad44af9d",
+          "sequencer": "00577D06ED4EE14A82"
+        }
+      }
+    }
+  ]
+}

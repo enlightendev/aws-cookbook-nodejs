@@ -1,0 +1,46 @@
+{
+  "Comment": "A simple example of the Steps language using an AWS Lambda Function",
+  "StartAt": "Hello",
+
+  "States": {
+    "Hello": {
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:eu-west-1:99999999999:function:HelloWord_Step",
+      "Next": "Parallel"
+    },
+
+    "Parallel": {
+      "Type": "Parallel",
+      "Next": "Goodbye",
+      "Branches": [
+        {
+          "StartAt": "p1",
+          "States": {
+            "p1": {
+              "Type": "Task",
+              "Resource": "arn:aws:lambda:eu-west-1:9999999999:function:HelloWord_Step",
+              "End": true
+            }
+          }
+        },
+
+        {
+          "StartAt": "p2",
+          "States": {
+            "p2": {
+              "Type": "Task",
+              "Resource": "arn:aws:lambda:eu-west-1:99999999999:function:HelloWord_Step",
+              "End": true
+            }
+          }
+        }
+      ]
+    },
+
+    "Goodbye": {
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:eu-west-1:99999999999:function:HelloWord_Step",
+      "End": true
+    }
+  }
+}

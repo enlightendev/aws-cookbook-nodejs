@@ -1,0 +1,32 @@
+[
+  {
+    "application": "e3",
+    "tags": [
+      "salesforce-url",
+      "follow-up",
+      "client-rep"
+    ],
+    "category": "finance",
+    "owner": "kjacques"
+  },
+  {
+    "application": "e2",
+    "tags": [
+      "salesforce-url",
+      "phase",
+      "document-url"
+    ],
+    "category": "marketing",
+    "owner": "mgordon"
+  },
+  {
+    "application": "fmdb",
+    "tags": [
+      "sharefile-url",
+      "e3-url",
+      "new-issue-phase"
+    ],
+    "category": "marketing",
+    "owner": "aalvarez"
+  }
+]
